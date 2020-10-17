@@ -261,3 +261,52 @@ textarea {
   }
 }
 
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+body {
+    background-image: url("../Pantalla1.png");
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-position: center;
+}
+
+.container {
+  display: flex;
+}
+
+.container button:first-child {
+  text-align: center;
+  position: absolute;
+  top: 67%;
+  left: 41%;
+  transform: translate(-50%, -50%);
+  width: 15%;
+  height: 8%;
+  border: 0px;
+  color: #1f6569;
+  font-size: 33px;
+  font-weight: bold;
+  background: linear-gradient(90deg, #9eedb9 0%, #66e1c5 100%);
+}
+
+.container button:last-child {
+  text-align: center;
+  position: absolute;
+  top: 67%;
+  left: 59%;
+  transform: translate(-50%, -50%);
+  width: 15%;
+  height: 8%;
+  border: 0px;
+  color: #1f6569;
+  font-size: 33px; 
+  font-weight: bold;
+  background: linear-gradient(90deg, #9eedb9 0%, #66e1c5 100%);
+}
