@@ -279,6 +279,7 @@ body {
 
 .container {
   display: flex;
+  background-image: url("../backgound.jpg");
 }
 
 .container button:first-child {
